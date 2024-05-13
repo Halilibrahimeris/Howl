@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/GameScenes/MainMen\xFC.unity"
+    guid: 4bc9c539aa8eb3441a2a0d89578b6e96
+  - enabled: 1
+    path: Assets/GameScenes/GenelScenes.unity
+    guid: 8e3f6d0019496694b96c13e9c0c92f52
+  - enabled: 1
+    path: Assets/GameScenes/MesleklerScenes.unity
+    guid: 31e2d71c47d95694290558ca1d8ed7a7
+  - enabled: 1
+    path: Assets/GameScenes/SporScenes.unity
+    guid: 397fca7d9e9e29643ba2e487a5c977a5
+  - enabled: 1
+    path: Assets/GameScenes/HayvanlarScenes.unity
+    guid: 0ce0267ab4ee87e46baeec2128cc23fd
+  - enabled: 1
+    path: Assets/GameScenes/BayraklarScenes.unity
+    guid: 46c81245ff4ff2040b93829e26e067b0
+  - enabled: 1
+    path: Assets/GameScenes/yerlerScenes.unity
+    guid: ffce6f928a4d6db439958c8ff8706cf6
+  m_configObjects: {}

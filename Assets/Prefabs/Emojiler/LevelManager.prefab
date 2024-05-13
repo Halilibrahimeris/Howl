@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1405050564783284963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1405050564783284961}
+  - component: {fileID: 1405050564783284962}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1405050564783284961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405050564783284963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1405050564783284962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405050564783284963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f40d0acee2e50449aa6fdb4c3a86080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActiveLevel: 0
+  Spriteler:
+  - sprite:
+    - {fileID: 21300000, guid: e91a94b36176b2a46bf61c2dfd53eb5c, type: 3}
+    - {fileID: 21300000, guid: c14b135173dfb6d46bc9f853ec9c0d73, type: 3}
+    - {fileID: 21300000, guid: 58d9a454fd004ad4e86f38d96dd740ee, type: 3}
+    "ulkeIsm\u0131": "\u0130TFA\u0130YEC\u0130"
+    CellSize:
+    - 80
+    - 95
+  - sprite:
+    - {fileID: 21300000, guid: b7c1b47ae2614ad43b88d654c64a7b80, type: 3}
+    - {fileID: 21300000, guid: b5330f2e845246544901499b108ab749, type: 3}
+    "ulkeIsm\u0131": "DA\u011ECI"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 6064d6c851e7e6c47bfc438793b09e73, type: 3}
+    - {fileID: 21300000, guid: 4e75fdc2fc6fd0f4ba0371be562a8ecd, type: 3}
+    "ulkeIsm\u0131": "KUAF\xD6R"
+    CellSize:
+    - 110
+    - 125
+  - sprite:
+    - {fileID: 21300000, guid: 3fb6c78d78acb7549a6bae7736dc0767, type: 3}
+    - {fileID: 21300000, guid: cddfd56f8009ade4e9be1cb70ab146fe, type: 3}
+    - {fileID: 21300000, guid: 0da2f51e2b96ed6409159ac92a5aefbb, type: 3}
+    "ulkeIsm\u0131": "MADENC\u0130"
+    CellSize:
+    - 110
+    - 125
+  - sprite:
+    - {fileID: 21300000, guid: e347d69f71df1514dbf31a4ec0bd4648, type: 3}
+    - {fileID: 21300000, guid: 29df6e1992f32fe4083aa8860acece7f, type: 3}
+    "ulkeIsm\u0131": ASTRONOT
+    CellSize:
+    - 90
+    - 105
+  - sprite:
+    - {fileID: 21300000, guid: 37be96b785b0f2248a87aa4142e4ce70, type: 3}
+    - {fileID: 21300000, guid: a4a35a8a07a5d304ebe20dc23203f816, type: 3}
+    "ulkeIsm\u0131": YAZAR
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 2a7a5d10a1d09584a993f98da2b40a90, type: 3}
+    - {fileID: 21300000, guid: f518bf5cf8df11b4d91e28423a54dee2, type: 3}
+    "ulkeIsm\u0131": "POL\u0130S"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 547ec91bdeadc69479df1fe6255bc850, type: 3}
+    - {fileID: 21300000, guid: e253234cb7842324cb44d33c50524573, type: 3}
+    "ulkeIsm\u0131": "P\u0130LOT"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 1ec7fcea99723724a88ceadd1c80eb21, type: 3}
+    - {fileID: 21300000, guid: 073a8c46120db2f42b92c58dd26c0e4d, type: 3}
+    - {fileID: 21300000, guid: 9db644f06cc3a0c49a8180388c6d4266, type: 3}
+    "ulkeIsm\u0131": "A\u015E\xC7I"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 98739446f4f92624ead65c8499dcfb08, type: 3}
+    - {fileID: 21300000, guid: a5abfbb2d6494af4b9b4c02baf3b5fea, type: 3}
+    - {fileID: 21300000, guid: d628344995d0a144991e7003485d0b33, type: 3}
+    "ulkeIsm\u0131": DOKTOR
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: 82e9813948daa72479b39302528eb5c9, type: 3}
+    - {fileID: 21300000, guid: f491dda8e7597c54988de41dc8f14a76, type: 3}
+    - {fileID: 21300000, guid: fee21a06cedfb8243a41b37b20dca51d, type: 3}
+    "ulkeIsm\u0131": "\xC7\u0130FT\xC7\u0130"
+    CellSize:
+    - 110
+    - 125
+  - sprite:
+    - {fileID: 21300000, guid: 0b9913ce3a92f2248b3641f7ea85a11f, type: 3}
+    - {fileID: 21300000, guid: 068f6c238fc68914986a32851e3921b6, type: 3}
+    - {fileID: 21300000, guid: b2f3126ec124dd04d81d4846c7af3a88, type: 3}
+    "ulkeIsm\u0131": "B\u0130L\u0130M \u0130NSANI"
+    CellSize:
+    - 60
+    - 75
+  - sprite:
+    - {fileID: 21300000, guid: ba6629ba171795443bcfc7eef03ae9f0, type: 3}
+    - {fileID: 21300000, guid: 6a3270f677309884680e1b853a17ebab, type: 3}
+    - {fileID: 21300000, guid: 4499b1ec7ca6e2b4facae3068e0447de, type: 3}
+    "ulkeIsm\u0131": "M\u0130MAR"
+    CellSize:
+    - 130
+    - 145
+  - sprite:
+    - {fileID: 21300000, guid: 3a1aaba90abded749b3af931e79ede42, type: 3}
+    - {fileID: 21300000, guid: 5bbd042f0092cd84eb089deefcfe3c02, type: 3}
+    - {fileID: 21300000, guid: 191df393eba519b4b9e7bee6af9932e3, type: 3}
+    "ulkeIsm\u0131": "\xD6\u011ERETMEN"
+    CellSize:
+    - 100
+    - 115
+  - sprite:
+    - {fileID: 21300000, guid: 100640a2459831d4f8503f723f8cd516, type: 3}
+    - {fileID: 21300000, guid: 80378d203c95e194e8e5fbc6a2efb13e, type: 3}
+    "ulkeIsm\u0131": POSTACI
+    CellSize:
+    - 100
+    - 115
+  - sprite:
+    - {fileID: 21300000, guid: a53b6c9cd131b1c45acf30c773f24739, type: 3}
+    - {fileID: 21300000, guid: 17519c1b5c13a2a408a6d8af979f0569, type: 3}
+    "ulkeIsm\u0131": "TERZ\u0130"
+    CellSize:
+    - 130
+    - 145
+  - sprite:
+    - {fileID: 21300000, guid: 5ffc682815af58b409e3fa2827f9fbb0, type: 3}
+    - {fileID: 21300000, guid: 44ff73ee65bece0428a221eea2fec18d, type: 3}
+    "ulkeIsm\u0131": "D\u0130\u015E\xC7\u0130"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: e49b2f4d4c1c39e47a48321f57562465, type: 3}
+    "ulkeIsm\u0131": "TAKS\u0130C\u0130"
+    CellSize:
+    - 140
+    - 155
+  - sprite:
+    - {fileID: 21300000, guid: a6a44e3d6a7935d4a8f232431551233a, type: 3}
+    - {fileID: 21300000, guid: 247694f604eff7e46b1fcb81cbee7e9e, type: 3}
+    "ulkeIsm\u0131": "TAM\u0130RC\u0130"
+    CellSize:
+    - 130
+    - 145
+  - sprite:
+    - {fileID: 21300000, guid: 898cffa0fa9c9f44cb6b951bea06ddf1, type: 3}
+    - {fileID: 21300000, guid: c23281e066c78224893dae3a2d4c7d85, type: 3}
+    "ulkeIsm\u0131": "DEDEKT\u0130F"
+    CellSize:
+    - 110
+    - 125
